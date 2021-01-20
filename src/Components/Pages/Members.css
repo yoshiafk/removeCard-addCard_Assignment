@@ -1,0 +1,53 @@
+.cards {
+  padding: 4rem;
+  background: #fff;
+}
+h1 {
+  text-align: center;
+}
+
+.cards__container {
+  max-width: 1120px;
+  width: 980px;
+  margin: 0 auto;
+}
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+.cards__items {
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+.cards__item {
+  cursor: pointer;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.25);
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.cards__item span {
+  padding-top: 10px;
+  text-align: center;
+}
+.addInput {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.cards__item__text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #252e48;
+  display: flex;
+  justify-content: center;
+}
